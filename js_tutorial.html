@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        main {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JavaScript Tutorial</h1>
+        <nav>
+            <ul>
+                <li><a href="html_tutorial.html">HTML</a></li>
+                <li><a href="css_tutorial.html">CSS</a></li>
+                <li><a href="js_tutorial.html">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Introduction to JavaScript</h2>
+        <p>JavaScript is a programming language that allows you to implement complex features on web pages. It can update and change both HTML and CSS.</p>
+        <h3>Basic Syntax</h3>
+        <pre><code>let message = 'Hello, world!';
+alert(message);
+</code></pre>
+        <h3>Example</h3>
+        <pre><code>&lt;script&gt;
+function myFunction() {
+    document.getElementById('demo').innerHTML = 'Hello, world!';
+}
+&lt;/script&gt;
+
+&lt;p id="demo"&gt;This is a paragraph.&lt;/p&gt;
+&lt;button onclick="myFunction()"&gt;Click Me!&lt;/button&gt;
+</code></pre>
+        <h3>Common JavaScript Functions</h3>
+        <ul>
+            <li><code>alert()</code>: Displays an alert box with a message</li>
+            <li><code>document.getElementById()</code>: Selects an HTML element by its ID</li>
+            <li><code>console.log()</code>: Logs a message to the browser console</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Website Name. All rights
